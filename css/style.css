@@ -36,7 +36,11 @@ header, main, footer {
 
 .profile-pic 
 {
+  border-collapse: collapse;
   margin: 2%;
+  border: #9e9e9e 1px solid;
+  border-radius: 33%;
+  padding: 2%;
 }
 
 .info-item
@@ -68,5 +72,12 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+
+.tech-section, .do-section
+{
+  margin-left: 15%;
+  margin-right: 15%;
 }
     
