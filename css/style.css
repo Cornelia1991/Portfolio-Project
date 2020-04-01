@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&display=swap');
 
-body {
-	font-family: Karla;
+h1, h3, h4 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p, h5, h6, li
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-container
+{
+  margin-bottom: 300px;
 }
 
 header, main, footer {
@@ -14,13 +24,18 @@ header, main, footer {
 	}
 }
 
-
-.icon
+.top-nav-icons
 {
-  color: red;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
-.about-container
+.nav-icon
+{
+  padding-right: 15px;
+}
+
+.main-container
 {
   font-family: 'Markazi Text', serif;
   text-align: center;
@@ -32,6 +47,11 @@ header, main, footer {
   /* transform: translate(-50%, -50%); */
 }
 
+.projects, .exp-and-edu
+{
+  margin-top: 10%;
+}
+
 
 
 .profile-pic 
@@ -41,6 +61,10 @@ header, main, footer {
   border: #9e9e9e 1px solid;
   border-radius: 33%;
   padding: 2%;
+}
+
+.profile-logo{
+  width: 75%;
 }
 
 .info-item
@@ -75,7 +99,7 @@ main {
 }
 
 
-.tech-section, .do-section
+.tech-section, .skills
 {
   margin-left: 15%;
   margin-right: 15%;
