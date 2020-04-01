@@ -56,10 +56,7 @@ header, main, footer {
 
 .profile-pic 
 {
-  border-collapse: collapse;
-  margin: 2%;
-  border: #9e9e9e 1px solid;
-  border-radius: 33%;
+  margin-top: 20%;
   padding: 2%;
 }
 
