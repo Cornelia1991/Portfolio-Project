@@ -50,8 +50,8 @@ header, main, footer {
 .projects, .exp-and-edu
 {
   margin-top: 10%;
+  margin-bottom: 10%;
 }
-
 
 
 .profile-pic 
@@ -102,3 +102,7 @@ main {
   margin-right: 15%;
 }
     
+.contact-icon
+{
+  color: #000;
+}

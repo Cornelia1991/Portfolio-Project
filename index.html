@@ -24,7 +24,7 @@
         <!-- NAVBAR -->
         <header>
           <nav class="white">
-            <div class="nav-wrapper">
+            <div class="nav-wrapper" id="about">
               <div class="row">
                 <div class="col s6">
                   <a href="#" data-target="sidenav-1" class="left sidenav-trigger hide-on-medium-and-up pink-text darken-4-text"><i class="material-icons">menu</i></a>
@@ -43,11 +43,11 @@
 
         <ul id="sidenav-1" class="sidenav sidenav-fixed">
           <li class="center-align"><img  class="profile-logo" valign="bottom" src="img/profile-logo.png" alt=""></li>
-          <li><a href="#"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/checked-identification-documents.png"/>About Me</a></li>
-          <li><a href="#"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/html.png"/>Projects</a></li>
-          <li><a href="#"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/brainstorm-skill.png"/>Experienece & Education</a></li>
-          <li><a href="#"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/settings-3.png"/>Skills</a></li>
-          <li><a href="#"><img class="nav-icon" valign="middle"  src="https://img.icons8.com/carbon-copy/25/000000/contact-card.png"/>Contacts</a></li>
+          <li><a href="#about"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/checked-identification-documents.png"/>About Me</a></li>
+          <li><a href="#projects"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/html.png"/>Projects</a></li>
+          <li><a href="#exp-edu"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/brainstorm-skill.png"/>Experienece & Education</a></li>
+          <li><a href="#skills"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/settings-3.png"/>Skills</a></li>
+          <li><a href="#contacts"><img class="nav-icon" valign="middle"  src="https://img.icons8.com/carbon-copy/25/000000/contact-card.png"/>Contacts</a></li>
         </ul>
 
         <main>
@@ -62,7 +62,7 @@
               </div>
               <div class="col s12 m8 info-half">
                 <ul class="collection with-header">
-                  <li><h4 class="pink-text darken-4-text">Cornelia Johnson</h4></li>
+                  <li><h4 class="pink-text darken-4-text" >Cornelia Johnson</h4></li>
                   <li class="left-align info-item">
                     <p>Hello, I'm C.J. a fullt-stack software developer building applicatins with HTML, CSS, JavaScript and ... I was a military paralegal in my previous career. I discovered coding while doing a job search for a career in business. I tried freecodecamp and I have been coding ever since; I switch my major to computer science that week. Its very rare that I am attracted so strongly to anything. Coding has become my #1 hobby. I am very excited to make it my next career.
                     </p>
@@ -77,9 +77,9 @@
                 </ul>
               </div>
             </div>
-            <h1 class="pink-text darken-4-text projects">Projects</h1>
             <div class="row">
-              <div class="row">
+              <div class="row projects">
+                <h1 class="pink-text darken-4-text" id="projects">Projects</h1>
                 <div class="col s12 m4">
                   <div class="card">
                     <span class="card-title cyan-text">HITT TRAINER</span>
@@ -140,8 +140,8 @@
                   <div class="row">
                     <div class="row">
                       <div class="card">
-                        <div class="col s12 m6">
-                          <h1 class="pink-text darken-4-text exp-and-edu">Experience</h1>
+                        <div class="col s12 m6 exp-and-edu">
+                          <h1 class="pink-text darken-4-text" id="exp-edu">Experience</h1>
                           <img src="https://img.icons8.com/ios/60/000000/development-skill.png"/>
                           <div class="section">
                             <h5 class="cyan-text">Paralegal</h5>
@@ -150,8 +150,8 @@
                           </div>
                         </div>
                         <!-- Eduction -->
-                        <div class="col s12 m6">
-                          <h1 class="pink-text darken-4-text exp-and-edu">Education</h1>
+                        <div class="col s12 m6 exp-and-edu">
+                          <h1 class="pink-text darken-4-text">Education</h1>
                           <img src="https://img.icons8.com/dotty/60/000000/graduation-cap.png"/>
                           <div class="section">
                             <h5 class="cyan-text">Bachelors of Science</h5>
@@ -163,13 +163,15 @@
                           <div class="section">
                             <h5 class="cyan-text">Boot Camp</h5>
                             <p>Full Stack Immersive</p>
-                            <p>C# .Net Specialzation</p>
+                            <p id="skills">C# .Net Specialzation</p>
                           </div>
                         </div>
                       </div>
-                      <div class="divider"></div>  
-                        <div class="section skills">
-                         <h3 class="pink-text darken-4-text skills">What I do</h3>
+
+                      <!-- Skills -->
+                      <div class="skills">
+                        <div class="section">
+                         <h3 class="pink-text darken-4-text" >What I do</h3>
                          <img src="https://img.icons8.com/ios/50/000000/code.png"/>
                          <h6 class="cyan-text">Web App Development</h6>
                          <p>I enjoy creating techonoly that can benefit any user. I am always looking for ways to complete projects and willing to learn any techonoly that is best for the end goal.</p>
@@ -177,6 +179,7 @@
                          <h6 class="cyan-text">Team Mnagement & Team Player</h6>
                          <p>I learned my mangemnt skills through my responsibilites in the military. More importantly, I also learned how important it is to be a team player. I understand the importance of planning, communication. That awareness has lead me complete task timely while using the least resources.</p>
                         </div>
+                      </div>
                         <h4 class="pink-text darken-4-text">Technologies I've Worked With</h4>
                           <div class="section tech-section">
                             <div class="row">
@@ -227,7 +230,7 @@
                 <div class="section">
                   <div class="row">
                     <div class="row">
-                      <h1 class="pink-text darken-4-text">Contact</h1>
+                      <h1 class="pink-text darken-4-text" id="contacts">Contact</h1>
                       <div class="col s12 m4">
                         <div class="card">
                           <div class="card-content">
@@ -240,7 +243,7 @@
                       <div class="col s12 m4">
                         <div class="card">
                           <div class="card-content">
-                            <a href="#"><i class="material-icons medium">phone</i></a>
+                            <a href="#"><i class="material-icons contact-icon medium">phone</i></a>
                             <span class="card-title">Phone</span>
                             <p>(850) 524 - 8993</p>
                           </div>
@@ -249,7 +252,7 @@
                       <div class="col s12 m4">
                         <div class="card">
                           <div class="card-content">
-                            <a href="#"><i class="material-icons medium">email</i></a>
+                            <a href="#"><i class="material-icons contact-icon medium">email</i></a>
                             <span class="card-title">Email</span>
                             <p>corneliaj91@gmail.com</p>
                           </div>
@@ -260,13 +263,9 @@
                 </div>
               </div>
                 <div class="row contact-small-row">
-                  <div class="col s1">
+                  <div class="col s3">
                     <a href="#" class="icon"><img src="https://img.icons8.com/windows/30/000000/github-squared.png"/></a>
-                  </div>
-                  <div class="col s1">
                     <a href="#" class="icon"><img src="https://img.icons8.com/windows/30/000000/facebook-messenger.png"/></a>
-                  </div>
-                  <div class="col s1">
                     <a href="#" class="icon"><img src="https://img.icons8.com/windows/30/000000/instagram-new.png"/></a>
                   </div>
                   <div class="col s1 right">
@@ -279,7 +278,7 @@
 
 
           <!-- MODAL INPUTS -->
-          <!-- HITT TRAINER -->
+          <!-- HITT TRAINER  MODAL-->
         <div id="modal1" class="modal">
           <div class="modal-content">
             <h4>HITT TRAINER</h4>
