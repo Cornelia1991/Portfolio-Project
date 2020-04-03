@@ -47,12 +47,11 @@ header, main, footer {
   /* transform: translate(-50%, -50%); */
 }
 
-.projects, .exp-and-edu
+.projects
 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 20%;
 }
-
 
 .profile-pic 
 {
