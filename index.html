@@ -15,6 +15,7 @@
 
 
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
       <script src='/js/index.js' defer></script>
             
@@ -23,7 +24,7 @@
     
         <!-- NAVBAR -->
         <header>
-          <nav class="white">
+          <nav class="white" data-aos="zoom-out-up">
             <div class="nav-wrapper" id="about">
               <div class="row">
                 <div class="col s6">
@@ -54,216 +55,230 @@
 
           <!-- About -->
           <div class="card main-container">
-            <div class="row about-me">
-              <div class="col s12 m4 card-image">
-                <div class="profile">
-                  <img class="profile-pic card-image info-half" src="img/profile-pic.png" alt="profile">
+            <section>
+              <div class="row about-me" data-aos="zoom-in">
+                <div class="col s12 m4 card-image">
+                  <div class="profile">
+                    <img class="profile-pic card-image info-half" src="img/profile-pic.png" alt="profile">
+                  </div>
+                </div>
+                <div class="col s12 m8 info-half">
+                  <ul class="collection with-header">
+                    <li><h4 class="pink-text darken-4-text" >Cornelia Johnson</h4></li>
+                    <li class="left-align info-item">
+                      <p>Hello, I'm C.J. a fullt-stack software developer building applicatins with HTML, CSS, JavaScript and ... I was a military paralegal in my previous career. I discovered coding while doing a job search for a career in business. I tried freecodecamp and I have been coding ever since; I switch my major to computer science that week. Its very rare that I am attracted so strongly to anything. Coding has become my #1 hobby. I am very excited to make it my next career.
+                      </p>
+                      <p>Hello, I'm C.J. a fullt-stack software developer building applicatins with HTML, CSS, JavaScript and ... I was a military paralegal in my previous career. I discovered coding while doing a job search for a career in business. I tried freecodecamp and I have been coding ever since; I switch my major to computer science that week. Its very rare that I am attracted so strongly to anything. Coding has become my #1 hobby. I am very excited to make it my next career.
+                      </p>
+                    </li>
+                    <li class="left-align info-item"><i class="tiny material-icons">work</i>Software Developer</li>
+                    <li class="left-align info-item"><i class="tiny material-icons">location_on</i>
+                    Florida, USA</li>
+                    <li class="left-align info-item"><i class="tiny material-icons">email</i> cornelia91@gmail.com</li>
+                    <li class="left-align info-item"><i class="tiny material-icons">phone</i> (850) 524-8993</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col s12 m8 info-half">
-                <ul class="collection with-header">
-                  <li><h4 class="pink-text darken-4-text" >Cornelia Johnson</h4></li>
-                  <li class="left-align info-item">
-                    <p>Hello, I'm C.J. a fullt-stack software developer building applicatins with HTML, CSS, JavaScript and ... I was a military paralegal in my previous career. I discovered coding while doing a job search for a career in business. I tried freecodecamp and I have been coding ever since; I switch my major to computer science that week. Its very rare that I am attracted so strongly to anything. Coding has become my #1 hobby. I am very excited to make it my next career.
-                    </p>
-                    <p>Hello, I'm C.J. a fullt-stack software developer building applicatins with HTML, CSS, JavaScript and ... I was a military paralegal in my previous career. I discovered coding while doing a job search for a career in business. I tried freecodecamp and I have been coding ever since; I switch my major to computer science that week. Its very rare that I am attracted so strongly to anything. Coding has become my #1 hobby. I am very excited to make it my next career.
-                    </p>
-                  </li>
-                  <li class="left-align info-item"><i class="tiny material-icons">work</i>Software Developer</li>
-                  <li class="left-align info-item"><i class="tiny material-icons">location_on</i>
-                  Florida, USA</li>
-                  <li class="left-align info-item"><i class="tiny material-icons">email</i> cornelia91@gmail.com</li>
-                  <li class="left-align info-item"><i class="tiny material-icons">phone</i> (850) 524-8993</li>
-                </ul>
-              </div>
-            </div>
+            </section>
             <div class="row">
               <div class="row projects">
-                <h1 class="pink-text darken-4-text" id="projects">Projects</h1>
-                <div class="col s12 m4">
-                  <div class="card">
-                    <span class="card-title cyan-text">HITT TRAINER</span>
-                    <div class="card-image">
-                      <img src="img/hitt_timer.jpg">
-                      <span class="card-title">Card Title</span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                      <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                      <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
-                    </div>
-                  </div>
-                </div>
-               
-                <div class="col s12 m4">
-                  <div class="card">
-                    <span class="card-title cyan-text">UNKNOWN</span>
-                    <div class="card-image">
-                      <img src="img/add_suggestion.jpg">
-                      <span class="card-title">Card Title</span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal2"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                      <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                      <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
+                <section data-aos="zoom-in">
+                  <h1 class="pink-text darken-4-text" id="projects">Projects</h1>
+                  <div class="col s12 m4">
+                    <div class="card">
+                      <span class="card-title cyan-text">HITT TRAINER</span>
+                      <div class="card-image">
+                        <img src="img/hitt_timer.jpg">
+                        <span class="card-title">Card Title</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
+                      </div>
+                      <div class="card-content">
+                        <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
+                        <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
+                      </div>
                     </div>
                   </div>
-                </div>
                 
-                <div class="col s12 m4">
-                  <div class="card">
-                    <span class="card-title cyan-text">UNKNOWN</span>
-                    <div class="card-image">
-                      <img src="img/add_suggestion.jpg">
-                      <span class="card-title">Card Title</span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal3"><i class="material-icons">add</i></a>
+                  <div class="col s12 m4">
+                    <div class="card">
+                      <span class="card-title cyan-text">UNKNOWN</span>
+                      <div class="card-image">
+                        <img src="img/add_suggestion.jpg">
+                        <span class="card-title">Card Title</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal2"><i class="material-icons">add</i></a>
+                      </div>
+                      <div class="card-content">
+                        <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
+                        <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
+                      </div>
                     </div>
-                    <div class="card-content">
-                      <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                      <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
+                  </div>
+                  
+                  <div class="col s12 m4">
+                    <div class="card">
+                      <span class="card-title cyan-text">UNKNOWN</span>
+                      <div class="card-image">
+                        <img src="img/add_suggestion.jpg">
+                        <span class="card-title">Card Title</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light cyan modal-trigger" href="#modal3"><i class="material-icons">add</i></a>
+                      </div>
+                      <div class="card-content">
+                        <p>The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
+                        <a href="#"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
+                </section>
 
                 <!-- Experience -->
                 <div class="divider"></div>
                 <div class="section">
                   <div class="row">
                     <div class="row">
-                      <div class="card exp-and-edu">
-                        <div>
-                          <div class="col s12 m6">
-                            <h1 class="pink-text darken-4-text">Education</h1>
-                            <img src="https://img.icons8.com/dotty/60/000000/graduation-cap.png"/>
-                            <div class="section">
-                              <h5 class="cyan-text">Bachelors of Science</h5>
-                              <h6>Computer Science</h6>
-                              <p>Specialzation in Information Assurance</p>
-                              <p>Saint Leo University</p>
+                      <section data-aos="zoom-in-right">
+                        <div class="card exp-and-edu">
+                          <div>
+                            <div class="col s12 m6">
+                              <h1 class="pink-text darken-4-text">Education</h1>
+                              <img src="https://img.icons8.com/dotty/60/000000/graduation-cap.png"/>
+                              <div class="section">
+                                <h5 class="cyan-text">Bachelors of Science</h5>
+                                <h6>Computer Science</h6>
+                                <p>Specialzation in Information Assurance</p>
+                                <p>Saint Leo University</p>
+                              </div>
+                              <div class="divider"></div>
+                              <div class="section">
+                                <h5 class="cyan-text">Boot Camp</h5>
+                                <p>Full Stack Immersive</p>
+                                <p id="skills">C# .Net Specialzation</p>
+                              </div>
                             </div>
-                            <div class="divider"></div>
-                            <div class="section">
-                              <h5 class="cyan-text">Boot Camp</h5>
-                              <p>Full Stack Immersive</p>
-                              <p id="skills">C# .Net Specialzation</p>
                             </div>
-                          </div>
-                          </div>
-                          <!-- Eduction -->
-                          <div class="col s12 m6">
-                            <h1 class="pink-text darken-4-text" id="exp-edu">Experience</h1>
-                            <img src="https://img.icons8.com/ios/60/000000/development-skill.png"/>
-                            <div class="section">
-                              <h5 class="cyan-text">Paralegal</h5>
-                              <h6>U.S. Army Reseves</h6>
-                              <p>2013 - 2020</p>
+                            <!-- Eduction -->
+                            <div class="col s12 m6">
+                              <h1 class="pink-text darken-4-text" id="exp-edu">Experience</h1>
+                              <img src="https://img.icons8.com/ios/60/000000/development-skill.png"/>
+                              <div class="section">
+                                <h5 class="cyan-text">Paralegal</h5>
+                                <h6>U.S. Army Reseves</h6>
+                                <p>2013 - 2020</p>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      </section>
 
                       <!-- Skills -->
-                      <div class="skills">
-                        <div class="section">
-                         <h3 class="pink-text darken-4-text" >What I do</h3>
-                         <img src="https://img.icons8.com/ios/50/000000/code.png"/>
-                         <h6 class="cyan-text">Web App Development</h6>
-                         <p>I enjoy creating techonoly that can benefit any user. I am always looking for ways to complete projects and willing to learn any techonoly that is best for the end goal.</p>
-                         <img src="https://img.icons8.com/ios/50/000000/management.png"/>
-                         <h6 class="cyan-text">Team Mnagement & Team Player</h6>
-                         <p>I learned my mangemnt skills through my responsibilites in the military. More importantly, I also learned how important it is to be a team player. I understand the importance of planning, communication. That awareness has lead me complete task timely while using the least resources.</p>
-                        </div>
-                      </div>
-                        <h4 class="pink-text darken-4-text">Technologies I've Worked With</h4>
-                          <div class="section tech-section">
-                            <div class="row">
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/javascript.png"/></p>
-                                <label for="tech">JavaScript</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/bootstrap.png"/></p>
-                                <label for="tech">BootStrap</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png"/></p>
-                                <label for="tech">Visual Studio</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/html-5.png"/></p>
-                                <label for="tech">HTML</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/material-outlined/70/000000/github.png"/></p>
-                                <label for="tech">GitHub</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/css3.png"/></p>
-                                <label for="tech">CSS</label>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col s3"><p class="tech"><img src="https://img.icons8.com/color/70/000000/git.png"/></p>
-                                <label for="tech">Git</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/npm.png"/></p>
-                                <label for="tech">npm</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/c-sharp-logo.png"/></p>
-                                <label for="tech">C#</label>
-                              </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/microsoft-sql-server.png"/></p>
-                                <label for="tech">SQL</label>
-                              </div>
-                            <div class="col s2"><p class="tech"><img src="https://img.icons8.com/dusk/70/000000/webpack.png"/></p>
-                              <label for="tech">Webpack</label>
-                            </div>
-                          </div>
+                      <section data-aos="zoom-in">
+                        <div class="skills">
+                          <div class="section">
+                          <h1 class="pink-text darken-4-text">Skills</h1>
+                          <h5 class="cyan-text" >What I do</h5>
+                          <img src="https://img.icons8.com/ios/50/000000/code.png"/>
+                          <h6 class="cyan-text">Web App Development</h6>
+                          <p>I enjoy creating techonoly that can benefit any user. I am always looking for ways to complete projects and willing to learn any techonoly that is best for the end goal.</p>
+                          <img src="https://img.icons8.com/ios/50/000000/management.png"/>
+                          <h6 class="cyan-text">Team Mnagement & Team Player</h6>
+                          <p>I learned my mangemnt skills through my responsibilites in the military. More importantly, I also learned how important it is to be a team player. I understand the importance of planning, communication. That awareness has lead me complete task timely while using the least resources.</p>
                           </div>
                         </div>
-                    </div>
+                        <div>
+                          <h4 class="pink-text darken-4-text">Technologies I've Worked With</h4>
+                            <div class="section tech-section">
+                              <div class="row">
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/javascript.png"/></p>
+                                  <label for="tech">JavaScript</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/bootstrap.png"/></p>
+                                  <label for="tech">BootStrap</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png"/></p>
+                                  <label for="tech">Visual Studio</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/html-5.png"/></p>
+                                  <label for="tech">HTML</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/material-outlined/70/000000/github.png"/></p>
+                                  <label for="tech">GitHub</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/css3.png"/></p>
+                                  <label for="tech">CSS</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col s3"><p class="tech"><img src="https://img.icons8.com/color/70/000000/git.png"/></p>
+                                  <label for="tech">Git</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/npm.png"/></p>
+                                  <label for="tech">npm</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/c-sharp-logo.png"/></p>
+                                  <label for="tech">C#</label>
+                                </div>
+                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/microsoft-sql-server.png"/></p>
+                                  <label for="tech">SQL</label>
+                                </div>
+                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/dusk/70/000000/webpack.png"/></p>
+                                <label for="tech">Webpack</label>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                      <!-- </div> -->
+                    </section>
                   </div>
                 </div>
 
                 <!-- Contacts -->
                 <div class="divider"></div>
-                <div class="section">
-                  <div class="row">
+                <section data-aos="zoom-in-left">
+                  <div class="section">
                     <div class="row">
-                      <h1 class="pink-text darken-4-text" id="contacts">Contact</h1>
-                      <div class="col s12 m4">
-                        <div class="card">
-                          <div class="card-content">
-                            <a href="#"><i class="material-icons contact-icon medium">phone</i></a>
-                            <span class="card-title">Phone</span>
-                            <p>(850) 524 - 8993</p>
+                      <div class="row">
+                        <h1 class="pink-text darken-4-text" id="contacts">Contact</h1>
+                        <div class="col s12 m4">
+                          <div class="card">
+                            <div class="card-content">
+                              <a href="#"><i class="material-icons contact-icon medium">phone</i></a>
+                              <span class="card-title">Phone</span>
+                              <p>(850) 524 - 8993</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col s12 m4">
-                        <div class="card">
-                          <div class="card-content">
-                            <a href="#"><i class="material-icons contact-icon medium">email</i></a>
-                            <span class="card-title">Email</span>
-                            <p>corneliaj91@gmail.com</p>
+                        <div class="col s12 m4">
+                          <div class="card">
+                            <div class="card-content">
+                              <a href="#"><i class="material-icons contact-icon medium">email</i></a>
+                              <span class="card-title">Email</span>
+                              <p>corneliaj91@gmail.com</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col s12 m4">
-                        <div class="card">
-                          <div class="card-content">
-                            <a href="#"><img src="https://img.icons8.com/windows/55/000000/linkedin-2.png"/></a>
-                            <span class="card-title">Linkedin</span>
-                            <p>linkedin.com/corneliajohnson-cs</p>
+                        <div class="col s12 m4">
+                          <div class="card">
+                            <div class="card-content">
+                              <a href="#"><img src="https://img.icons8.com/windows/55/000000/linkedin-2.png"/></a>
+                              <span class="card-title">Linkedin</span>
+                              <p>linkedin.com/corneliajohnson-cs</p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </section>
                 <div class="row contact-small-row">
                   <div class="col s3">
                     <a href="#" class="icon"><img src="https://img.icons8.com/windows/30/000000/github-squared.png"/></a>
@@ -331,13 +346,8 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-      <script src="index.js"></script>
-      <script>
-        $(document).ready(function(){
-        $('.sidenav').sidenav();
-        $('.modal').modal();
-        });
-      </script>
+      <script src="js/index.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </body>
   </html>
         
