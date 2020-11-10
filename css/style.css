@@ -1,43 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&display=swap");
 
-h1, h3, h4 {
-	font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Josefin Sans", sans-serif;
 }
 
-p, h5, h6, li
-{
-  font-family: 'Open Sans', sans-serif;
+p,
+h5,
+h6,
+li {
+  font-family: "Open Sans", sans-serif;
 }
 
-.about-container
-{
+.about-container {
   margin-bottom: 200px;
 }
 
-header, main, footer {
-	padding-left: 300px;
+header,
+main,
+footer {
+  padding-left: 300px;
 }
 
-@media only screen and (max-width : 992px) {
-	header, main, footer {
-		padding-left: 0;
-	}
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
 }
 
-.top-nav-icons
-{
+.top-nav-icons {
   margin-right: 0px;
   padding-right: 0px;
 }
 
-.nav-icon
-{
+.nav-icon {
   padding-right: 15px;
 }
 
-.main-container
-{
-  font-family: 'Markazi Text', serif;
+.main-container {
+  font-family: "Markazi Text", serif;
   text-align: center;
   position: absolute;
   /* width: 75%; */
@@ -47,39 +52,34 @@ header, main, footer {
   /* transform: translate(-50%, -50%); */
 }
 
-.projects
-{
+.projects {
   margin-top: 15%;
-  margin-bottom: 15%}
+  margin-bottom: 15%;
+}
 
-.profile-pic 
-{
+.profile-pic {
   margin-top: 10%;
   padding: 2%;
 }
 
-.profile-logo{
+.profile-logo {
   width: 75%;
 }
 
-.info-item
-{
+.info-item {
   padding-left: 25px;
   padding-right: 25px;
   margin: 2%;
 }
-.material-icons
-{
+.material-icons {
   margin-right: 5px;
 }
 
-main
-{
+main {
   margin-top: 50px;
 }
 
-.modal-pic
-{
+.modal-pic {
   margin: 25px;
 }
 
@@ -93,15 +93,12 @@ main {
   flex: 1 0 auto;
 }
 
-
-.tech-section, .skills
-{
+.tech-section,
+.skills {
   margin-left: 15%;
   margin-right: 15%;
 }
-    
-.contact-icon
-{
+
+.contact-icon {
   color: #000;
 }
-
