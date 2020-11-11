@@ -52,11 +52,6 @@ footer {
   font-family: "Markazi Text", serif;
   text-align: center;
   position: absolute;
-  /* width: 75%; */
-  /* height: 60%; */
-  /* left: 60%;
-  top: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .projects {
@@ -108,4 +103,8 @@ main {
 
 .contact-icon {
   color: #000;
+}
+
+.card-image {
+  height: 400px;
 }
