@@ -14,6 +14,13 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
+h2 {
+  font-size: 5em;
+}
+p {
+  font-size: 1.5;
+}
+
 .about-container {
   margin-bottom: 200px;
 }
