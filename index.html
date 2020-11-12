@@ -1,472 +1,585 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<html>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-      <!-- font-awesome -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <script src='/js/index.js' defer></script>
-            
-    </head>
-      <body>
-    
-        <!-- NAVBAR -->
-        <header>
-          <nav class="white">
-            <div class="nav-wrapper" id="about">
-              <div class="row">
-                <div class="col s6">
-                  <a href="#" data-target="sidenav-1" class="left sidenav-trigger hide-on-medium-and-up pink-text darken-4-text"><i class="material-icons">menu</i></a>
-                </div>
-                <div class="top-nav-icons">
-                  <div class="col s3 right">
-                    <a href="https://www.linkedin.com/in/cornelia-johnson-cs/" data-target="sidenav-1" class="icon"><img class="sm-icon" valign="middle" src="https://img.icons8.com/windows/30/000000/github-squared.png"/></a>
-                    <a href="https://github.com/corneliajohnson" data-target="sidenav-1" class="icon"><img  valign="middle" src="https://img.icons8.com/material-outlined/30/000000/linkedin.png"/></a>
-                  </div>
-                </div>
-              </div>
+  <script src='/js/index.js' defer></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="white">
+      <div class="nav-wrapper" id="about">
+        <div class="row">
+          <div class="col s6">
+            <a href="#" data-target="sidenav-1"
+              class="left sidenav-trigger hide-on-medium-and-up pink-text darken-4-text"><i
+                class="material-icons">menu</i></a>
+          </div>
+          <div class="top-nav-icons">
+            <div class="col s3 right">
+              <a href="https://www.linkedin.com/in/cornelia-johnson-cs/" data-target="sidenav-1" class="icon"><img
+                  class="sm-icon" valign="middle"
+                  src="https://img.icons8.com/windows/30/000000/github-squared.png" /></a>
+              <a href="https://github.com/corneliajohnson" data-target="sidenav-1" class="icon"><img valign="middle"
+                  src="https://img.icons8.com/material-outlined/30/000000/linkedin.png" /></a>
             </div>
-          </nav>
-        </header>
-
-        <ul id="sidenav-1" class="sidenav sidenav-fixed">
-          <li class="center-align"><img  class="profile-logo" valign="bottom" src="img/profile-logo.png" alt=""></li>
-          <li><a href="#about"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/checked-identification-documents.png"/>About Me</a></li>
-          <li><a href="#projects"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/html.png"/>Projects</a></li>
-          <li><a href="#exp-edu"><img class="nav-icon" valign="middle" src="https://img.icons8.com/carbon-copy/25/000000/brainstorm-skill.png"/>Education & Education</a></li>
-          <li><a href="#skills"><img class="nav-icon" valign="middle" src="https://img.icons8.com/ios/25/000000/settings-3.png"/>Skills</a></li>
-          <li><a href="#contacts"><img class="nav-icon" valign="middle"  src="https://img.icons8.com/carbon-copy/25/000000/contact-card.png"/>Contacts</a></li>
-        </ul>
-
-        <main>
-
-          <!-- About -->
-          <div class="card main-container">
-            <section>
-              <div class="row about-me">
-                <div class="col s12 m4 card-image">
-                  <div class="profile">
-                    <img class="profile-pic card-image info-half" src="img/profile-pic.png" alt="profile">
-                  </div>
-                </div>
-                <div class="col s12 m8 info-half">
-                  <ul class="collection with-header">
-                    <li><h1 class="pink-text darken-4-text" >Cornelia Johnson</h1></li>
-                    <li class="left-align info-item">
-                      <p>Hello, I'm CJ,
-                        <br>
-                         A full-stack software developer building applications with HTML, CSS, JavaScript, ReactJs, C# and other tools. I was a military paralegal in my previous career. 
-                         
-                         I discovered programming while doing an internet search. I tried freecodecamp.org and I have been coding ever since. I switch my major to computer science that week and never looked back. Coding became my favorite hobby. I am very excited to make it my next career.
-                      </p>
-                    </li>
-                    <li class="left-align info-item"><i class="tiny material-icons">work</i>Software Developer</li>
-                    <li class="left-align info-item"><i class="tiny material-icons">location_on</i>
-                    Florida, USA</li>
-                    <li class="left-align info-item"><i class="tiny material-icons">email</i><a href="mailto:corneliaj91@gmail.com" class="cyan-text">cornelia91@gmail.com</a></li>
-                    <li class="left-align info-item"><i class="tiny material-icons">phone</i> (850) 524-8993</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-  
-            <div class="row">
-              <div class="row projects">
-                <section>
-                  <h2 class="pink-text darken-4-text" id="projects">Personal Projects</h2>
-                  <div class="col s12 m6 xl4">
-                    <div class="card">
-                      <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Renter's View</h4>
-                      <p class=" grey-text lighten-2">November 2020</p>
-                      <div class="card-image">
-                        <img class="card-image" src="img/renterview.png">
-                        
-                        <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal3"><i class="material-icons">add</i></a>
-                      </div>
-                      <div class="card-content">
-                        <p class="left-align">Renter's View Allows Landlords/Property Managers to organize property and tenant information.</p>
-                        <br>
-                        <p class=" left-align grey-text">Technologies: React.js, ReactStrap, Json, HTML, CSS</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://github.com/corneliajohnson/Renters-View"><img   src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                       
-                      </div>
-                    </div>
-                  </div>
-
-                  
-                  <div class="col s12 m6 xl4">
-                    <div class="card">
-                      <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">HITT Trainer</h4>
-                      <p class=" grey-text lighten-2">April 2020</p>
-                      <div class="card-image">
-                        <img class="card-image" src="img/hitt_timer.jpg">
-                        <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
-                      </div>
-                      <div class="card-content">
-                        <p class="left-align">The HITT Trainer allows users to customize a workout, perfect for a home workout.</p>
-                        <br>
-                        <p class=" left-align grey-text">Technologies: JavaScript, Materialize, HTML, CSS</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://github.com/corneliajohnson/Interval-Trainer"><img   src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                        <a href="http://www.hitttrainer.xyz/"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="col s12 m6 xl4">
-                    <div class="card">
-                      <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Foodie Foodie</h4>
-                      <p class=" grey-text lighten-2">February 2020</p>
-                      <div class="card-image">
-                        <img class="card-image" src="img/foodie_1.PNG">
-                        
-                        <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal2"><i class="material-icons">add</i></a>
-                      </div>
-                      <div class="card-content">
-                        <p class="left-align"s>Foodie Foodie allows users to search for recipes. Using an external API</p>
-                        <br>
-                        <p class=" left-align grey-text">Technologies: JavaScript, Materialize, HTML, CSS</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://github.com/corneliajohnson/FoodieFoodie"><img src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                        <a href="http://www.foodiefoodie.xyz/"><img src="https://img.icons8.com/wired/24/000000/internet.png"/></a>
-                      </div>
-                    </div>
-                  </div>
-                  
-
-                </div>
-
-<!-- Group Project -->
-                <div class="row">
-                  <h2 class="pink-text darken-4-text" id="projects">Group Projects</h2>
-
-                  <div class="col s12 m6 xl4">
-                    <div class="card">
-                      <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Plenty of Witches</h4>
-                      <p class=" grey-text lighten-2">October 2020</p>
-                      <div class="card-image">
-                        <img class="card-image" src="img/plentyofwitches.PNG">
-                        
-                        <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal5"><i class="material-icons">add</i></a>
-                      </div>
-                      <div class="card-content">
-                        <p class="left-align">Plenty of witches is a Halloween Themed social site. Users can manager messages, tasks, events, friends and events</p>
-                        <br>
-                        <p class=" left-align grey-text">Technologies: React.js, ReactStrap, Json, HTML, CSS</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://github.com/corneliajohnson/nuttyshell-react-plentyofwitches"><img   src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                                               
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 xl4">
-                    <div class="card">
-                      <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Jungle Booking</h4>
-                      <p class=" grey-text lighten-2">October 2020</p>
-                      <div class="card-image">
-                        <img class="card-image" src="img/junglebooking.PNG">
-                        
-                        <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal4"><i class="material-icons">add</i></a>
-                      </div>
-                      <div class="card-content">
-                        <p class="left-align">An online place for travelers to plan and save locations. Ideal travel site for social media personalities.</p>
-                        <br>
-                        <p class=" left-align grey-text">Technologies: JavaScript, HTML, CSS</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://github.com/corneliajohnson/jungle-books"><img   src="https://img.icons8.com/windows/24/000000/github-squared.png"/></a>
-                       
-                      </div>
-                    </div>
-                  </div>
-
-
-
-                </div>
-
-
-                </div>
-
-                
-                </section>
-
-                <!-- Experience -->
-                <div class="divider"></div>
-                <div class="section">
-                  <div class="row">
-                    <div class="row">
-                      <section>
-                        <div class="card exp-and-edu">
-                          <div>
-                            <div class="col s12 m6">
-                              <h2 class="pink-text darken-4-text">Education</h2>
-                              <img src="https://img.icons8.com/dotty/60/000000/graduation-cap.png"/>
-                              <div class="section">
-                                <h5 class="cyan-text">Bachelors of Science</h5>
-                                <h6>Computer Science</h6>
-                                <p>Specialization in Information Assurance</p>
-                                <p>Saint Leo University</p>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="section">
-                                <h5 class="cyan-text">Boot Camp</h5>
-                                <p>Full Stack Immersive</p>
-                                <p id="skills">C# .Net Specialization</p>
-                              </div>
-                            </div>
-                            </div>
-                            <!-- Eduction -->
-                            <div class="col s12 m6">
-                              <h2 class="pink-text darken-4-text" id="exp-edu">Experience</h2>
-                              <img src="https://img.icons8.com/ios/60/000000/development-skill.png"/>
-                              <div class="section">
-                                <h5 class="cyan-text">Software Developer Apprenticeship</h5>
-                                <p>Nashville Software School<p>
-                                <p>Full-Stack C#/.Net</p>
-                                <p id="skills">2020 - Present</p>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="section">
-                                <h5 class="cyan-text">Paralegal</h5>
-                                <p>U.S. Army Reserve</p>
-                                <p>2013 - 2020</p>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      </section>
-
-                      <!-- Skills -->
-                      <div class="divider"></div>
-                      <section>
-                        <div class="skills">
-                          <div class="section">
-                          <h2 class="pink-text darken-4-text">Skills</h2>
-                          <img src="https://img.icons8.com/ios/50/000000/code.png"/>
-                          <h5 class="cyan-text">Web App Development</h5>
-                          <p class="left-align">I enjoy creating technology that can benefit any user. I am always looking for ways to complete projects and willing to learn any technology that is best for the end goal.</p>
-                          <img src="https://img.icons8.com/ios/50/000000/management.png"/>
-                          <h5 class="cyan-text">Team Management & Team Player</h5>
-                          <p class="left-align">I learned my management skills through my responsibilities in the military. More importantly, I also learned how important it is to be a team player. I understand the importance of planning, communication. That awareness has lead me complete task timely while using the least resources.</p>
-                          </div>
-                        </div>
-                        <div>
-                          <h4 class="pink-text darken-4-text">Technologies I've Worked With</h4>
-                            <div class="section tech-section">
-                              <div class="row">
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/javascript.png"/></p>
-                                  <label for="tech">JavaScript</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/bootstrap.png"/></p>
-                                  <label for="tech">BootStrap</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png"/></p>
-                                  <label for="tech">Visual Studio</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/html-5.png"/></p>
-                                  <label for="tech">HTML</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/material-outlined/70/000000/github.png"/></p>
-                                  <label for="tech">GitHub</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/css3.png"/></p>
-                                  <label for="tech">CSS</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col s3"><p class="tech"><img src="https://img.icons8.com/color/70/000000/git.png"/></p>
-                                  <label for="tech">Git</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/react-native.png"/></p>
-                                  <label for="tech">Reactjs</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/c-sharp-logo.png"/></p>
-                                  <label for="tech">C#</label>
-                                </div>
-                                <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/microsoft-sql-server.png"/></p>
-                                  <label for="tech">SQL</label>
-                                </div>
-                              <div class="col s2"><p class="tech"><img src="https://img.icons8.com/color/70/000000/material-ui.png"/></p>
-                                <label for="tech">Material Ui</label>
-                              </div>
-                            </div>
-                            </div>
-                          </div>
-                      <!-- </div> -->
-                    </section>
-                  </div>
-                </div>
-
-                <!-- Contacts -->
-                <div class="divider"></div>
-                <section >
-                  <div class="section">
-                    <div class="row">
-                      <div class="row">
-                        <h2 class="pink-text darken-4-text" id="contacts">Contacts</h2>
-                        <div class="col s12 l6 xl3">
-                          <div class="card">
-                            <div class="card-content">
-                              <a><i class="material-icons contact-icon medium">phone</i></a>
-                              <span class="card-title">Phone</span>
-                              <p class="cyan-text">(850) 524 - 8993</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s12 l6 xl3">
-                          <div class="card">
-                            <div class="card-content">
-                              <a href="mailto:corneliaj91@gmail.com"><i class="material-icons contact-icon medium">email</i></a>
-                              <span class="card-title">Email</span>
-                              <a href="mailto:corneliaj91@gmail.com"><p class="cyan-text">corneliaj91@gmail.com</p></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s12 l6 xl3">
-                          <div class="card">
-                            <div class="card-content">
-                              <a href="https://www.linkedin.com/in/cornelia-johnson-cs/"><img src="https://img.icons8.com/windows/60/000000/linkedin-2.png"/></a>
-                              <span class="card-title">Linkedin</span>
-                              <a href="https://www.linkedin.com/in/cornelia-johnson-cs/""><p class="cyan-text">linkedin.com/corneliajohnson-cs</p></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s12 l6 xl3">
-                          <div class="card">
-                            <div class="card-content">
-                              <a href="https://github.com/corneliajohnson"><img src="https://img.icons8.com/material-outlined/60/000000/github.png"/></a>
-                              <span class="card-title">GitHub</span>
-                              <a href="https://github.com/corneliajohnson"><p class="cyan-text">https://github.com/corneliajohnson</p></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                  <div class="col s1 right">
-                    <a href="#" class="icon">credit</a>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </div> 
-        </main>
-
-
-          <!-- MODAL INPUTS -->
-          <!-- HITT TRAINER  MODAL-->
-        <div id="modal1" class="modal">
-          <div class="modal-content">
-            <h4>HITT TRAINER</h4>
-            <p>HITT Trainer allows users to input a workout. All workouts are customized based on user input and abilities. The user can input a number of exercises from their own creativity or from the suggestion list. HITT Trainer was created during COVID-19. With all the gyms closed not having the ability to normal routines, a HITT workout was the best way to stay in shape at home.</p>
-            <p>Technologies: HTML, CSS, Materialize and JavaScript</p>
-          </div>
-          <div class="all-modal-pics center-align">
-            <h5>Opening Page</h5>
-            <div class="modal-pic"><img src="img/hitt_main_page.jpg" alt=""></div>
-            <h5>Add Suggestions</h5>
-            <div class="modal-pic"><img src="img/add_suggestion.jpg" alt=""></div>
-            <h5>Workout</h5>
-            <div class="modal-pic"><img src="img/hitt_timer.jpg" alt=""></div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">EXIT</a>
           </div>
         </div>
+      </div>
+    </nav>
+  </header>
 
-          <!-- UNKNOWN -->
-          <div id="modal2" class="modal">
-            <div class="modal-content">
-              <h4>Foodie Foodie</h4>
-              <p>Foodie Foodie allows users to search for recipes from and external API. Th user has the ability to get more information about the recipe and a link to order the ingredients for the recipe.</p>
-              <p>Technologies: HTML, CSS, Materialize and JavaScript</p>
-              <div class="all-modal-pics center-align">
-                <h5>Search For Recipes</h5>
-                <div class="modal-pic"><img src="img/foodie_1.PNG" alt=""></div>
-                <h5>Check Recipe Ingredients</h5>
-                <div class="modal-pic"><img src="img/foodie_2.PNG" alt=""></div>
+  <ul id="sidenav-1" class="sidenav sidenav-fixed">
+    <li class="center-align"><img class="profile-logo" valign="bottom" src="img/profile-logo.png" alt=""></li>
+    <li><a href="#about"><img class="nav-icon" valign="middle"
+          src="https://img.icons8.com/ios/25/000000/checked-identification-documents.png" />About Me</a></li>
+    <li><a href="#projects"><img class="nav-icon" valign="middle"
+          src="https://img.icons8.com/carbon-copy/25/000000/html.png" />Projects</a></li>
+    <li><a href="#exp-edu"><img class="nav-icon" valign="middle"
+          src="https://img.icons8.com/carbon-copy/25/000000/brainstorm-skill.png" />Education & Education</a></li>
+    <li><a href="#skills"><img class="nav-icon" valign="middle"
+          src="https://img.icons8.com/ios/25/000000/settings-3.png" />Skills</a></li>
+    <li><a href="#contacts"><img class="nav-icon" valign="middle"
+          src="https://img.icons8.com/carbon-copy/25/000000/contact-card.png" />Contacts</a></li>
+  </ul>
+
+  <main>
+
+    <!-- About -->
+    <div class="card main-container">
+      <section>
+        <div class="row about-me">
+          <div class="col s12 m4 card-image">
+            <div class="profile">
+              <img class="profile-pic card-image info-half" src="img/profile-pic.png" alt="profile">
+            </div>
+          </div>
+          <div class="col s12 m8 info-half">
+            <ul class="collection with-header">
+              <li>
+                <h1 class="pink-text darken-4-text">Cornelia Johnson</h1>
+              </li>
+              <li class="left-align info-item">
+                <p>Hello, I'm CJ,
+                  <br>
+                  A full-stack software developer building applications with HTML, CSS, JavaScript, ReactJs, C# and
+                  other tools. I was a military paralegal in my previous career.
+
+                  I discovered programming while doing an internet search. I tried freecodecamp.org and I have been
+                  coding ever since. I switch my major to computer science that week and never looked back. Coding
+                  became my favorite hobby. I am very excited to make it my next career.
+                </p>
+              </li>
+              <li class="left-align info-item"><i class="tiny material-icons">work</i>Software Developer</li>
+              <li class="left-align info-item"><i class="tiny material-icons">location_on</i>
+                Florida, USA</li>
+              <li class="left-align info-item"><i class="tiny material-icons">email</i><a
+                  href="mailto:corneliaj91@gmail.com" class="cyan-text">cornelia91@gmail.com</a></li>
+              <li class="left-align info-item"><i class="tiny material-icons">phone</i> (850) 524-8993</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="row">
+        <div class="row projects">
+          <section>
+            <h2 class="pink-text darken-4-text" id="projects">Personal Projects</h2>
+            <div class="col s12 m6 xl4">
+              <div class="card">
+                <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Renter's View</h4>
+                <p class=" grey-text lighten-2">November 2020</p>
+                <div class="card-image">
+                  <img class="card-image" src="img/renterview.png">
+
+                  <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger"
+                    href="#modal3"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p class="left-align">Renter's View Allows Landlords/Property Managers to organize property and tenant
+                    information.</p>
+                  <br>
+                  <p class=" left-align grey-text">Technologies: React.js, ReactStrap, Json, HTML, CSS</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/corneliajohnson/Renters-View"><img
+                      src="https://img.icons8.com/windows/28/000000/github-squared.png" /></a>
+                  <a class="modal-trigger" href="#rentersviewdemo"><i
+                      class="material-icons black-text">ondemand_video</i></a>
+                </div>
               </div>
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+
+
+            <div class="col s12 m6 xl4">
+              <div class="card">
+                <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">HITT Trainer</h4>
+                <p class=" grey-text lighten-2">April 2020</p>
+                <div class="card-image">
+                  <img class="card-image" src="img/hitt_timer.jpg">
+                  <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger"
+                    href="#modal1"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p class="left-align">The HITT Trainer allows users to customize a workout, perfect for a home
+                    workout.</p>
+                  <br>
+                  <p class=" left-align grey-text">Technologies: JavaScript, Materialize, HTML, CSS</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/corneliajohnson/Interval-Trainer"><img
+                      src="https://img.icons8.com/windows/28/000000/github-squared.png" /></a>
+                  <a href="http://www.hitttrainer.xyz/"><img
+                      src="https://img.icons8.com/wired/24/000000/internet.png" /></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 xl4">
+              <div class="card">
+                <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Foodie Foodie</h4>
+                <p class=" grey-text lighten-2">February 2020</p>
+                <div class="card-image">
+                  <img class="card-image" src="img/foodie_1.PNG">
+
+                  <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger"
+                    href="#modal2"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p class="left-align" s>Foodie Foodie allows users to search for recipes. Using an external API</p>
+                  <br>
+                  <p class=" left-align grey-text">Technologies: JavaScript, Materialize, HTML, CSS</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/corneliajohnson/FoodieFoodie"><img
+                      src="https://img.icons8.com/windows/28/000000/github-squared.png" /></a>
+                  <a href="http://www.foodiefoodie.xyz/"><img
+                      src="https://img.icons8.com/wired/24/000000/internet.png" /></a>
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+
+        <!-- Group Project -->
+        <div class="row">
+          <h2 class="pink-text darken-4-text" id="projects">Group Projects</h2>
+
+          <div class="col s12 m6 xl4">
+            <div class="card">
+              <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Plenty of Witches</h4>
+              <p class=" grey-text lighten-2">October 2020</p>
+              <div class="card-image">
+                <img class="card-image" src="img/plentyofwitches.PNG">
+
+                <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal5"><i
+                    class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p class="left-align">Plenty of witches is a Halloween Themed social site. Users can manager messages,
+                  tasks, events, friends and events</p>
+                <br>
+                <p class=" left-align grey-text">Technologies: React.js, ReactStrap, Json, HTML, CSS</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/corneliajohnson/nuttyshell-react-plentyofwitches"><img
+                    src="https://img.icons8.com/windows/28/000000/github-squared.png" /></a>
+
+              </div>
             </div>
           </div>
 
-          <!-- Renter's View -->
-          <div id="modal3" class="modal">
-            <div class="modal-content">
-              <h4>Renters View</h4>
-              <p>Improve the landlord/tenant experience and relationship. The application will give both parties a direct line of communication and the platform to share needed information.</p>
-              <p>Landlords can manage tenants, properties and maintenance along with viewing payment information. The tenants will be able to track maintenance, landlord and payment information for the property they are occupying and message their landlord.</p>
-              <p>Technologies: HTML, CSS, ReactJs, ReactStrap, Cloudinary, Json</p>
-              <h5>Landlord Landing Page</h5>
-              <div class="modal-pic" ><img  style="width:90%;" src="gif/homepage.gif" alt=""></div>
-              <h5>Tenant Landing Page</h5>
-              <div class="modal-pic" ><img  style="width:90%;" src="gif/tenantaccount.gif" alt=""></div>
-            </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+          <div class="col s12 m6 xl4">
+            <div class="card">
+              <h4 style="font-size: 2.5em; padding-top: .5em;" class="card-title cyan-text">Jungle Booking</h4>
+              <p class=" grey-text lighten-2">October 2020</p>
+              <div class="card-image">
+                <img class="card-image" src="img/junglebooking.PNG">
+
+                <a class="btn-floating halfway-fab waves-effect waves-light pink pulse modal-trigger" href="#modal4"><i
+                    class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p class="left-align">An online place for travelers to plan and save locations. Ideal travel site for
+                  social media personalities.</p>
+                <br>
+                <p class=" left-align grey-text">Technologies: JavaScript, HTML, CSS</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/corneliajohnson/jungle-books"><img
+                    src="https://img.icons8.com/windows/28/000000/github-squared.png" /></a>
+
+              </div>
             </div>
           </div>
 
-                    <!-- Jungle Booking -->
-                    <div id="modal4" class="modal">
-                      <div class="modal-content">
-                        <h4>Jungle Booking</h4>
-                        <p>Jungle booking is an itinerary building application. The user can create new itineraries by picking a park, an eatery, and an attraction. The app connects to several APIs in order to function. The parks that the user chooses from are fetched from the National Park Services API. Each time a park is selected, the weather forecast for that park is displayed. The weather is fetched from openweathermap.org. The user then needs to select an attraction and an eatery. The data for both of these are fetched from APIs created by the Nashville Software School, which are listed below. When an itinerary is saved it is posted to a local json database. The data from that local database is fetched, and all the saved itineraries are displayed to the DOM.</p>
-                        <p>Technologies: HTML, CSS, JavaScript, Json</p>
-                        <p>My Roles: In the project I was responsible for the weather section (API Fetch, display on DOM), the styling of the main image area (fetching the images from the parks api) and assisted with styling.</p>
-                        <h5>Landing Page</h5>
-                        <div class="modal-pic" ><img  style="width:90%;" src="gif/jungle.gif" alt=""></div>
-                      </div>
-                      <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
-                      </div>
-                    </div>
-        
-                    <!-- Jungle Booking -->
-                    <div id="modal5" class="modal">
-                      <div class="modal-content">
-                        <h4>Plenty of Witches</h4>
-                        <p>Plenty of Witches is a product offering communication between friends with a similar interest. It's a dashboard for people to use to organize their daily tasks, events, news article, friends, and chat messages.</p>
-                        <p>Technologies: HTML, CSS, Reactjs, ReactStrap and Json</p>
-                        <p>My Roles: Adding and removing friends, showing friends information when user name is clicked, showing the current user information in the "My Account" link and styling.</p>
-                        <h5>Landing Page and Friends</h5>
-                        <div class="modal-pic" ><img  style="width:90%;" src="gif/plentyofwitches.gif" alt=""></div>
-                      </div>
-                      <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
-                      </div>
-                    </div>
 
 
-        <!-- Credit -->
-        <!-- <a href="https://icons8.com/icon/85044/linkedin">LinkedIn icon by Icons8</a> -->
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-      <script src="js/index.js"></script>
-    </body>
-  </html>
-        
+        </div>
+
+
+      </div>
+
+
+      </section>
+
+      <!-- Experience -->
+      <div class="divider"></div>
+      <div class="section">
+        <div class="row">
+          <div class="row">
+            <section>
+              <div class="card exp-and-edu">
+                <div>
+                  <div class="col s12 m6">
+                    <h2 class="pink-text darken-4-text">Education</h2>
+                    <img src="https://img.icons8.com/dotty/60/000000/graduation-cap.png" />
+                    <div class="section">
+                      <h5 class="cyan-text">Bachelors of Science</h5>
+                      <h6>Computer Science</h6>
+                      <p>Specialization in Information Assurance</p>
+                      <p>Saint Leo University</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <h5 class="cyan-text">Boot Camp</h5>
+                      <p>Full Stack Immersive</p>
+                      <p id="skills">C# .Net Specialization</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Eduction -->
+                <div class="col s12 m6">
+                  <h2 class="pink-text darken-4-text" id="exp-edu">Experience</h2>
+                  <img src="https://img.icons8.com/ios/60/000000/development-skill.png" />
+                  <div class="section">
+                    <h5 class="cyan-text">Software Developer Apprenticeship</h5>
+                    <p>Nashville Software School
+                    <p>
+                    <p>Full-Stack C#/.Net</p>
+                    <p id="skills">2020 - Present</p>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="section">
+                    <h5 class="cyan-text">Paralegal</h5>
+                    <p>U.S. Army Reserve</p>
+                    <p>2013 - 2020</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>
+
+          <!-- Skills -->
+          <div class="divider"></div>
+          <section>
+            <div class="skills">
+              <div class="section">
+                <h2 class="pink-text darken-4-text">Skills</h2>
+                <img src="https://img.icons8.com/ios/50/000000/code.png" />
+                <h5 class="cyan-text">Web App Development</h5>
+                <p class="left-align">I enjoy creating technology that can benefit any user. I am always looking for
+                  ways to complete projects and willing to learn any technology that is best for the end goal.</p>
+                <img src="https://img.icons8.com/ios/50/000000/management.png" />
+                <h5 class="cyan-text">Team Management & Team Player</h5>
+                <p class="left-align">I learned my management skills through my responsibilities in the military. More
+                  importantly, I also learned how important it is to be a team player. I understand the importance of
+                  planning, communication. That awareness has lead me complete task timely while using the least
+                  resources.</p>
+              </div>
+            </div>
+            <div>
+              <h4 class="pink-text darken-4-text">Technologies I've Worked With</h4>
+              <div class="section tech-section">
+                <div class="row">
+                  <div class="col s3">
+                    <p class="tech"><img class="tech-img" src="img/dotnet.png" alt="dotnet"></p>
+                    <label for="tech">C#/.Net Core</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img class="tech-img" src="img/figma.png" alt="figma"></p>
+                    <label for="tech">Figma</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img class="tech-img" src="img/azure.png" alt="azure"></p>
+                    <label for="tech">Azure</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img class="tech-img" src="img/dotnet-logo.png" alt="asp dotnet"></p>
+                    <label for="tech">ASP .Net Core</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/fluent/70/000000/visual-studio-2019.png"
+                        alt="visualstudio" /></p>
+                    <label for="tech">Visual Studio</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/javascript.png" /></p>
+                    <label for="tech">JavaScript</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/bootstrap.png" /></p>
+                    <label for="tech">BootStrap</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img class="tech-img" src="img/postman.png" alt="postman"></p>
+                    <label for="tech">Postman</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/html-5.png" /></p>
+                    <label for="tech">HTML</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/material-outlined/70/000000/github.png" /></p>
+                    <label for="tech">GitHub</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/css3.png" /></p>
+                    <label for="tech">CSS</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s3">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/git.png" /></p>
+                    <label for="tech">Git</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/react-native.png" /></p>
+                    <label for="tech">Reactjs</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/c-sharp-logo.png" /></p>
+                    <label for="tech">C#</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/microsoft-sql-server.png" /></p>
+                    <label for="tech">SQL</label>
+                  </div>
+                  <div class="col s2">
+                    <p class="tech"><img src="https://img.icons8.com/color/70/000000/material-ui.png" /></p>
+                    <label for="tech">Material Ui</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+          </section>
+        </div>
+      </div>
+
+      <!-- Contacts -->
+      <div class="divider"></div>
+      <section>
+        <div class="section">
+          <div class="row">
+            <div class="row">
+              <h2 class="pink-text darken-4-text" id="contacts">Contacts</h2>
+              <div class="col s12 l6 xl3">
+                <div class="card">
+                  <div class="card-content">
+                    <a><i class="material-icons contact-icon medium">phone</i></a>
+                    <span class="card-title">Phone</span>
+                    <p class="cyan-text">(850) 524 - 8993</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l6 xl3">
+                <div class="card">
+                  <div class="card-content">
+                    <a href="mailto:corneliaj91@gmail.com"><i class="material-icons contact-icon medium">email</i></a>
+                    <span class="card-title">Email</span>
+                    <a href="mailto:corneliaj91@gmail.com">
+                      <p class="cyan-text">corneliaj91@gmail.com</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l6 xl3">
+                <div class="card">
+                  <div class="card-content">
+                    <a href="https://www.linkedin.com/in/cornelia-johnson-cs/"><img
+                        src="https://img.icons8.com/windows/60/000000/linkedin-2.png" /></a>
+                    <span class="card-title">Linkedin</span>
+                    <a href="https://www.linkedin.com/in/cornelia-johnson-cs/""><p class="
+                      cyan-text">linkedin.com/corneliajohnson-cs</p></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l6 xl3">
+                <div class="card">
+                  <div class="card-content">
+                    <a href="https://github.com/corneliajohnson"><img
+                        src="https://img.icons8.com/material-outlined/60/000000/github.png" /></a>
+                    <span class="card-title">GitHub</span>
+                    <a href="https://github.com/corneliajohnson">
+                      <p class="cyan-text">https://github.com/corneliajohnson</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="col s1 right">
+        <a href="#" class="icon">credit</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </main>
+
+
+  <!-- MODAL INPUTS -->
+  <!-- HITT TRAINER  MODAL-->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>HITT TRAINER</h4>
+      <p>HITT Trainer allows users to input a workout. All workouts are customized based on user input and abilities.
+        The user can input a number of exercises from their own creativity or from the suggestion list. HITT Trainer was
+        created during COVID-19. With all the gyms closed not having the ability to normal routines, a HITT workout was
+        the best way to stay in shape at home.</p>
+      <p>Technologies: HTML, CSS, Materialize and JavaScript</p>
+    </div>
+    <div class="all-modal-pics center-align">
+      <h5>Opening Page</h5>
+      <div class="modal-pic"><img src="img/hitt_main_page.jpg" alt=""></div>
+      <h5>Add Suggestions</h5>
+      <div class="modal-pic"><img src="img/add_suggestion.jpg" alt=""></div>
+      <h5>Workout</h5>
+      <div class="modal-pic"><img src="img/hitt_timer.jpg" alt=""></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">EXIT</a>
+    </div>
+  </div>
+
+  <!-- UNKNOWN -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Foodie Foodie</h4>
+      <p>Foodie Foodie allows users to search for recipes from and external API. Th user has the ability to get more
+        information about the recipe and a link to order the ingredients for the recipe.</p>
+      <p>Technologies: HTML, CSS, Materialize and JavaScript</p>
+      <div class="all-modal-pics center-align">
+        <h5>Search For Recipes</h5>
+        <div class="modal-pic"><img src="img/foodie_1.PNG" alt=""></div>
+        <h5>Check Recipe Ingredients</h5>
+        <div class="modal-pic"><img src="img/foodie_2.PNG" alt=""></div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+
+  <!-- Renter's View -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Renters View</h4>
+      <p>Improve the landlord/tenant experience and relationship. The application will give both parties a direct line
+        of communication and the platform to share needed information.</p>
+      <p>Landlords can manage tenants, properties and maintenance along with viewing payment information. The tenants
+        will be able to track maintenance, landlord and payment information for the property they are occupying and
+        message their landlord.</p>
+      <p>Technologies: HTML, CSS, ReactJs, ReactStrap, Cloudinary, Json</p>
+      <h5>Landlord Landing Page</h5>
+      <div class="modal-pic"><img style="width:90%;" src="gif/homepage.gif" alt=""></div>
+      <h5>Tenant Landing Page</h5>
+      <div class="modal-pic"><img style="width:90%;" src="gif/tenantaccount.gif" alt=""></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+  <!-- Renters Video Demo -->
+  <div id="rentersviewdemo" class="modal">
+    <div class="modal-content">
+      <h3>Renters View</h3>
+      <h4>Demo</h4>
+      <div class="modal-pic">
+        <video style="width:100%;" controls>
+          <source src="video/rentersview-demo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+
+  <!-- Jungle Booking -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Jungle Booking</h4>
+      <p>Jungle booking is an itinerary building application. The user can create new itineraries by picking a park, an
+        eatery, and an attraction. The app connects to several APIs in order to function. The parks that the user
+        chooses from are fetched from the National Park Services API. Each time a park is selected, the weather forecast
+        for that park is displayed. The weather is fetched from openweathermap.org. The user then needs to select an
+        attraction and an eatery. The data for both of these are fetched from APIs created by the Nashville Software
+        School, which are listed below. When an itinerary is saved it is posted to a local json database. The data from
+        that local database is fetched, and all the saved itineraries are displayed to the DOM.</p>
+      <p>Technologies: HTML, CSS, JavaScript, Json</p>
+      <p>My Roles: In the project I was responsible for the weather section (API Fetch, display on DOM), the styling of
+        the main image area (fetching the images from the parks api) and assisted with styling.</p>
+      <h5>Landing Page</h5>
+      <div class="modal-pic"><img style="width:90%;" src="gif/jungle.gif" alt=""></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+
+  <!-- Jungle Booking -->
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <h4>Plenty of Witches</h4>
+      <p>Plenty of Witches is a product offering communication between friends with a similar interest. It's a dashboard
+        for people to use to organize their daily tasks, events, news article, friends, and chat messages.</p>
+      <p>Technologies: HTML, CSS, Reactjs, ReactStrap and Json</p>
+      <p>My Roles: Adding and removing friends, showing friends information when user name is clicked, showing the
+        current user information in the "My Account" link and styling.</p>
+      <h5>Landing Page and Friends</h5>
+      <div class="modal-pic"><img style="width:90%;" src="gif/plentyofwitches.gif" alt=""></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+  </div>
+
+
+  <!-- Credit -->
+  <!-- <a href="https://icons8.com/icon/85044/linkedin">LinkedIn icon by Icons8</a> -->
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

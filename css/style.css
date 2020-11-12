@@ -108,3 +108,8 @@ main {
 .card-image {
   height: 400px;
 }
+
+.tech-img {
+  max-width: 70px;
+  height: 70px;
+}
