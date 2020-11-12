@@ -126,3 +126,10 @@ main {
 .modalTopic {
   font-weight: bold;
 }
+
+.tech-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
