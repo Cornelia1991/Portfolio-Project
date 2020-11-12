@@ -110,6 +110,10 @@ main {
 }
 
 .tech-img {
-  max-width: 70px;
+ max-width: 70px;
   height: 70px;
+}
+
+.card-content{
+  height: 175px;
 }
