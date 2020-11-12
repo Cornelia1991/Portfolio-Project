@@ -118,3 +118,7 @@ main {
 .card-content{
   height: 175px;
 }
+
+.modalTopic {
+  font-weight: bold;
+}
